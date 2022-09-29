@@ -1,0 +1,15 @@
+.aside-nav img {
+    height: 70px;
+    width: 70px;
+    border-radius: 45%;
+    padding-top: 50px;
+    max-width: 100%;
+}
+
+.aside-nav {
+    background-color: darkgray;
+    height: 100vh;
+    text-align: center;
+
+
+}

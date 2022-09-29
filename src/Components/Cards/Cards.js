@@ -13,14 +13,19 @@ const Cards = () => {
     }, [])
     return (
         <div className='display-container'>
-            {
-                subjects.map(subject => <Card
-                    key={subject.id}
-                    subject={subject}
+            <div className='grid-cards'>
+                {
+                    subjects.map(subject => <Card
+                        key={subject.id}
+                        subject={subject}
 
-                ></Card>)
-            }
-            <Aside></Aside>
+                    ></Card>)
+                }
+            </div>
+            <div>
+                <Aside></Aside>
+            </div>
+
         </div>
     );
 };
