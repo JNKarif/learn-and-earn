@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "sub": "Programming",
+        "img": "https://cdn.pixabay.com/photo/2015/01/08/18/24/programming-593312_960_720.jpg",
+        "duration": 2
+    },
+    {
+        "id": 2,
+        "sub": "Academic",
+        "img": "https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "duration": 3
+    },
+    {
+        "id": 3,
+        "sub": "Prayer",
+        "img": " https://cdn.pixabay.com/photo/2018/09/28/19/07/islamic-3710002_960_720.jpg",
+        "duration": 1.5
+    },
+    {
+        "id": 4,
+        "sub": "Exercise",
+        "img": "https://images.unsplash.com/photo-1500468756762-a401b6f17b46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
+        "duration": 2
+    },
+    {
+        "id": 5,
+        "sub": "IELTS",
+        "img": "https://cdn.pixabay.com/photo/2013/04/02/18/27/school-books-99476_960_720.jpg",
+        "duration": 1.50
+    },
+    {
+        "id": 6,
+        "sub": "New-language",
+        "img": "https://cdn.pixabay.com/photo/2017/05/26/11/10/language-2345801_960_720.jpg",
+        "duration": 2
+    }
+]

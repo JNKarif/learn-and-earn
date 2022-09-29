@@ -1,20 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
+import Aside from '../Side-nav/Aside';
+import './Cards.css'
 
 
 const Cards = () => {
-    const subjects = [
-        { id: 1, sub: 'Programming', img: 'https://unsplash.com/photos/DuHKoV44prg', duration: 2 },
-        { id: 2, sub: 'Academic', img: 'https://unsplash.com/photos/DuHKoV44prg', duration: 3 },
-        { id: 3, sub: 'Prayer', img: 'https://unsplash.com/photos/DuHKoV44prg', duration: 1.5 },
-        { id: 4, sub: 'Exercise', img: 'https://unsplash.com/photos/DuHKoV44prg', duration: 2 },
-        { id: 5, sub: 'IELTS', img: 'https://unsplash.com/photos/DuHKoV44prg', duration: 1.50 },
-        { id: 6, sub: 'New-language', img: 'https://unsplash.com/photos/DuHKoV44prg', duration: 2 }
-
-
-    ]
+    const [subjects, setSubjects] = useState([]);
+    useEffect(() => {
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => setSubjects(data))
+    }, [])
     return (
-        <div>
+        <div className='display-container'>
             {
                 subjects.map(subject => <Card
                     key={subject.id}
@@ -22,6 +20,7 @@ const Cards = () => {
 
                 ></Card>)
             }
+            <Aside></Aside>
         </div>
     );
 };
