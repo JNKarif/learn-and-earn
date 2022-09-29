@@ -11,6 +11,8 @@ const Aside = ({ list }) => {
     let total = 0;
     for (const subject of list) {
         total = total + subject.duration;
+
+
     }
 
     const addBreak = () => {
@@ -47,7 +49,7 @@ const Aside = ({ list }) => {
                 </div>
 
                 <div>
-                    <h4>Rest Time: 0 ms</h4>
+                    <h4>Rest Time: 20 ms</h4>
 
 
 
