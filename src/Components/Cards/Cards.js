@@ -6,18 +6,18 @@ import './Cards.css'
 
 const Cards = () => {
     const [subjects, setSubjects] = useState([]);
-    // const [list, setList] = useState;
+    const [list, setList] = useState([]);
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setSubjects(data))
     }, [])
 
-    // const handleAddToList = (subject) => {
-    //     console.log(subject)
-    //     const newList = [...list, subject];
-    //     setList(newList)
-    // }
+    const handleAddToList = (subject) => {
+        console.log(subject)
+        const newList = [...list, subject];
+        setList(newList)
+    }
 
     return (
         <div className='display-container'>
@@ -26,12 +26,12 @@ const Cards = () => {
                     subjects.map(subject => <Card
                         key={subject.id}
                         subject={subject}
-                    // handleAddToList={handleAddToList}
+                        handleAddToList={handleAddToList}
                     ></Card>)
                 }
             </div>
             <div>
-                <Aside></Aside>
+                <Aside list={list}></Aside>
             </div>
 
         </div>

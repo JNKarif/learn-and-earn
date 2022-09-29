@@ -1,12 +1,21 @@
-import { faList } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './Aside.css'
 import '../Cards/Cards'
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-const Aside = () => {
+const Aside = ({ list }) => {
+    console.log(list)
     const notify = () => toast("Congratulations! you have finished all the activities today");
+
+    let total = 0;
+    for (const subject of list) {
+        total = total + subject.duration;
+    }
+
+    const addBreak = () => {
+
+    }
 
     return (
         <div className='aside-nav'>
@@ -30,8 +39,9 @@ const Aside = () => {
             <div className='activity-container'>
 
                 <div><h3>Activity Details</h3></div>
+                <div><h4>Total activity: {list.length}</h4></div>
                 <div>
-                    <h4>Activity Time: 0 ms</h4>
+                    <h4>Activity Time: {total} ms</h4>
 
 
                 </div>
