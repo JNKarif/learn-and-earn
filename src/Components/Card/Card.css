@@ -2,6 +2,7 @@
     height: 284px;
     width: 284px;
     max-width: 100%;
+    min-width: 100%;
     border-radius: 15px;
 }
 
