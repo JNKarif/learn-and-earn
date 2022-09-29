@@ -8,8 +8,56 @@
 
 .aside-nav {
     background-color: darkgray;
-    height: 100vh;
+    height: 100%;
     text-align: center;
 
 
+}
+
+
+.rest-container {
+    margin-top: 70px;
+}
+
+
+.rest-btn button {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 45%;
+    padding: 10px;
+}
+
+.rest-btn button:hover {
+    background-color: darkcyan;
+
+}
+
+.activity-container {
+    margin-top: 70px;
+
+}
+
+.finished-btn {
+    margin-top: 50px;
+
+
+}
+
+.finished-btn button {
+    background-color: royalblue;
+    border: none;
+    width: 80%;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.finished-btn button:hover {
+    background-color: darkcyan;
 }

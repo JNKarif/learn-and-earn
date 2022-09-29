@@ -1,24 +1,25 @@
-.activity-container img {
+.activity-cards img {
     height: 284px;
     width: 284px;
     max-width: 100%;
     border-radius: 15px;
 }
 
-.activity-container {
+.activity-cards {
     border: 1px solid lightgrey;
     padding: 20px;
     border-radius: 15px;
 
 }
 
-.activity-container button {
+.activity-cards button {
     background-color: royalblue;
     border-radius: 5px;
     color: white;
     padding: 5px;
+    border: none;
 }
 
-.activity-container button:hover {
+.activity-cards button:hover {
     background-color: darkcyan;
 }
