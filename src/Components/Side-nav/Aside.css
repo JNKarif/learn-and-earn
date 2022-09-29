@@ -4,12 +4,13 @@
     border-radius: 45%;
     padding-top: 50px;
     max-width: 100%;
+
 }
 
 .aside-nav {
     background-color: lightgoldenrodyellow;
     height: 100%;
-
+    margin-left: 1px;
     text-align: center;
 
 

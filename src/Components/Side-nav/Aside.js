@@ -31,13 +31,13 @@ const Aside = () => {
 
                 <div><h3>Activity Details</h3></div>
                 <div>
-                    <h4>Total Activity Time: </h4>
+                    <h4>Activity Time: 0 ms</h4>
 
 
                 </div>
 
                 <div>
-                    <h4>Total Rest Time: 0 ms</h4>
+                    <h4>Rest Time: 0 ms</h4>
 
 
 
