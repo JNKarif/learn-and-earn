@@ -1,5 +1,12 @@
 nav {
     height: 70px;
-    color: orangered;
-    background-color: black;
+    color: whitesmoke;
+    background-color: darkslategrey;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+nav h1 {
+    padding-left: 10px;
 }

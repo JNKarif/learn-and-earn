@@ -1,16 +1,16 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fa-book - open - reader } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee, faPersonThroughWindow } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 import './Nav.css'
 
-
+<i class="fa-brands fa-studiovinari"></i>
 
 const Nav = () => {
     return (
         <div>
 
             <nav>
-                <FontAwesomeIcon icon={fa - book - open - reader}>
+                <FontAwesomeIcon icon={faPersonThroughWindow}>
 
                 </FontAwesomeIcon>
 
