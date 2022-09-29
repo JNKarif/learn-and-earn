@@ -6,7 +6,7 @@ const Card = (props) => {
     return (
         <div className='activity-cards'>
             <img src={img} alt="" />
-            <h3>Activity: {sub}</h3>
+            <h3>{sub}</h3>
             <p>Duration: {duration} ms</p>
             <button>Add to List</button>
         </div>
