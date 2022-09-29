@@ -7,7 +7,7 @@ const Card = (props) => {
         <div className='activity-cards'>
             <img src={img} alt="" />
             <h3>Activity: {sub}</h3>
-            <p>Duration: {duration} Hours</p>
+            <p>Duration: {duration} ms</p>
             <button>Add to List</button>
         </div>
     );

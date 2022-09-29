@@ -1,0 +1,16 @@
+.qna-container {
+    border: 1px solid lightgrey;
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 80%;
+    margin-left: 20px;
+
+    color: whitesmoke;
+    background-color: darkslategrey;
+
+}
+
+.qna-header {
+    margin-left: 20px;
+}

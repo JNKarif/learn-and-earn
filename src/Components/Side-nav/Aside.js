@@ -11,9 +11,7 @@ const Aside = () => {
             </div>
 
             <div className='rest-container'>
-                <h4>
-                    Resting Time
-                </h4>
+                <h3>Resting Time</h3>
                 <div className='rest-btn'>
                     <button>10ms</button>
                     <button>20ms</button>
@@ -26,13 +24,13 @@ const Aside = () => {
 
                 <div><h3>Activity Details</h3></div>
                 <div>
-                    <h4>Total Activity Time: 0ms</h4>
+                    <h4>Total Activity Time: 0 ms</h4>
 
 
                 </div>
 
                 <div>
-                    <h4>Total Rest Time: 0ms</h4>
+                    <h4>Total Rest Time: 0 ms</h4>
 
 
 
