@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
 import Aside from '../Side-nav/Aside';
+
 import './Cards.css'
 
 
@@ -17,6 +18,7 @@ const Cards = () => {
         console.log(subject)
         const newList = [...list, subject];
         setList(newList)
+
     }
 
     return (
